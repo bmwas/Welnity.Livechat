@@ -10,7 +10,7 @@ import ChatIcon from '../../icons/chat.svg';
 
 const defaultSrc = avatarResolver('guilherme.gazzo');
 
-const defaultText = 'Powered by Rocket.Chat';
+const defaultText = 'Powered by Welnity';
 const defaultBadge = 'badged';
 
 storiesOf('Components/Button', module)
