@@ -23,11 +23,11 @@ export const FooterContent = ({ children, className, ...props }) => (
 
 export const PoweredBy = ({ className, ...props }) => (
 	<h3 className={createClassName(styles, 'powered-by', {}, [className])} {...props}>
-		{I18n.t('Powered by Rocket.Chat').split('Rocket.Chat')[0]}
+		{I18n.t('Powered by Welnity').split('Welnity')[0]}
 		<a href='https://rocket.chat' target='_blank' rel='noopener noreferrer'>
 			<Logo className={createClassName(styles, 'powered-by__logo')} width={60} height={60 * 272 / 1500} role='img' aria-label='Rocket.Chat' />
 		</a>
-		{I18n.t('Powered by Rocket.Chat').split('Rocket.Chat')[1]}
+		{I18n.t('Powered by Welnity').split('Welnity')[1]}
 	</h3>
 );
 
