@@ -23,11 +23,9 @@ export const FooterContent = ({ children, className, ...props }) => (
 
 export const PoweredBy = ({ className, ...props }) => (
 	<h3 className={createClassName(styles, 'powered-by', {}, [className])} {...props}>
-		{I18n.t('Powered by Welnity').split('Welnity')[0]}
 		<a href='https://welnity.com' target='_blank' rel='noopener noreferrer'>
-			<Logo className={createClassName(styles, 'powered-by__logo')} width={60} height={60 * 272 / 1500} role='img' aria-label='Welnity' />
+		{I18n.t('Powered by Welnity')}
 		</a>
-		{I18n.t('Powered by Welnity').split('Welnity')[1]}
 	</h3>
 );
 
