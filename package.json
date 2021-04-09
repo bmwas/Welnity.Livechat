@@ -14,6 +14,7 @@
 		"build:app": "webpack --mode production",
 		"build:pack": "cp widget-demo.html ./build && tar -C build -czf build.tar.gz '.'",
 		"build": "run-s clean build:app build:pack",
+		"prepare": "npm run build",
 		"start": "webpack-dev-server --mode development",
 		"serve": "serve --debug build",
 		"dev": "webpack --mode development --watch",
