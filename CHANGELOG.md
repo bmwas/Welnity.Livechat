@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.9.6 - 2021-10-20
+[FIX] 'Hide agent info' not working on system message (#651)
+[FIX] Issues on Custom Livechat messages (#648)
+
+## 1.9.5 - 2021-09-14
+[IMPROVE] Readme enhancements (#557)
+[IMPROVE] Swedish Translations (#573)
+[FIX] Escaping HTML on paste/drop Text (#471)
+[IMPROVE] Spanish translations (#370)
+[IMPROVE] Russian translations (#644)
+[IMPROVE] Add cookie to identify widget calls (#645)
+
+## 1.9.4 - 2021-08-19
+[FIX] Iframe overlay (#631)
+[IMPROVE] German informal translation (#622) 
+[FIX] Translation error on department (#632)
+[IMPROVE] Open links in another tab on Livechat widget (#610) 
+[IMPROVE] Dutch Translations (#601) 
 
 ## 1.9.3 - 2021-04-21
 [FIX] sound notification on/off (#567)
